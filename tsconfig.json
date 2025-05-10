@@ -5,11 +5,11 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
-    // "esModuleInterop": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
   // "include": ["src/**/*"],
   "include": ["src/*", "src/prac/order.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
 }
